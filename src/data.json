@@ -1,0 +1,9 @@
+[
+  { "code": 101, "name": "Soap", "price": 120, "quantity": 1 },
+  { "code": 102, "name": "Surf Excel", "price": 350, "quantity": 1 },
+  { "code": 103, "name": "Juice", "price": 80, "quantity": 1 },
+  { "code": 104, "name": "Shampoo", "price": 200, "quantity": 1 },
+  { "code": 105, "name": "Shamoon", "price": 200, "quantity": 1 },
+  { "code": 106, "name": "IceCream", "price": 150, "quantity": 1},
+  { "code": 107, "name": "Ice", "price": 150, "quantity": 1}
+]

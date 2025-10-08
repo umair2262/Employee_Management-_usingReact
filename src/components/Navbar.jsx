@@ -1,4 +1,5 @@
 import React from 'react'
+import data from '../data.json'
 
 const Navbar = () => {
   return (
@@ -16,10 +17,14 @@ const Navbar = () => {
             <b >Products</b>
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="/">Action</a></li>
-            <li><a className="dropdown-item" href="/">Another action</a></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="/">Something else here</a></li>
+            {data.map((item) =>(
+            <li key={item.code}>
+                <a className="dropdown-item" href="/"> 
+                {item.name} 
+                </a>
+            </li>
+            )
+            )}
           </ul>
         </li>
         
